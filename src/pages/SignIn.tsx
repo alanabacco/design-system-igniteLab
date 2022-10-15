@@ -34,8 +34,6 @@ export function SignIn() {
         onSubmit={handleSignIn}
         className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10"
       >
-        {isUserSignedIn && <Text>Login realizado!</Text>}
-
         <label htmlFor="email" className="flex flex-col gap-3">
           <Text className="font-semibold">Endereço de e-mail</Text>
           <TextInput.Root>
@@ -68,6 +66,8 @@ export function SignIn() {
         <Button type="submit" className="mt-4">
           Entrar na plataforma
         </Button>
+
+        {isUserSignedIn && <Text>Login realizado!</Text>}
       </form>
 
       <footer className="flex flex-col items-center gap-3 mt-8">
