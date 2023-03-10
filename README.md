@@ -15,7 +15,9 @@ Esse projeto foi desenvolvido durante o Ignite Lab da [Rocketseat](https://rocke
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Storybook](https://storybook.js.org/)
+  - [addon a11y](https://storybook.js.org/addons/@storybook/addon-a11y)
 - [Tailwind](https://tailwindcss.com/)
+- [Radix](https://www.radix-ui.com/)
 - [Phosphor Icons](https://phosphoricons.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -40,7 +42,16 @@ npm run storybook
 
 [ ] customizar com outras cores e formatos;
 
-[ ] adicionar mais componentes.
+[ ] adicionar mais componentes:
+- Loader;
+- Form -> Select, Número, Data, e-mail, radio, dropdown, switch;
+- Accordion;
+- Toast;
+- Tooltip;
+- Card de algo;
+- PEGAR MAIS IDEIAS NOS COMPONENTES DO RADIX. <br />
+
+[ ] publicar no github pages.
 
 ---
 
